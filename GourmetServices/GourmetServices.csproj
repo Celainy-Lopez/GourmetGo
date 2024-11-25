@@ -10,4 +10,9 @@
 		<PackageReference Include="microsoft.entityframeworkcore" Version="8.0.10" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Gourmet.Abstractions\Gourmet.Abstractions.csproj" />
+	  <ProjectReference Include="..\Gourmet.Data\Gourmet.Data.csproj" />
+	</ItemGroup>
+
 </Project>
