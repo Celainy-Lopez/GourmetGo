@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace Gourmet.Data.Models;
 
-internal class MetodosPago
+public class MetodosPago
 {
+	public enum TipoPago
+	{
+		Tarjeta,
+		Efectivo
+	}
+
+	public int MetodoPagoId { get; set; }
+	public TipoPago Tipo { get; set; }
+
 }
